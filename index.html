@@ -7,9 +7,10 @@
   <title>Page Title</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
- 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   <script >
      $(document).ready(function () {
     window.addEventListener('dfMessengerLoaded', function (event) {
@@ -25,6 +26,52 @@
 </head>
 
 <body>
+  <nav class="fedex-nav">
+    <div class="fedex-wrapper">
+        <a class="fedex-header__logo_wrapper" routerLink="/home" routerLinkActive="active">
+            <span>
+                <img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" width="100%" height="100%"
+                    class="fedex-header-logo" alt="FedEx Logo" style="outline: none;">
+            </span>
+        </a>
+        <div class="fedex-global-nav fedex-grid">
+
+            <div class="dropdown">
+                <a  class="dropbtn" routerLink="/wefedex" routerLinkActive="active">We&#64;Fedex</a>
+                <div class="dropdown-content">
+                    <a href="#">Our Journey So
+                        Far</a>
+                    <a href="#">Our Operating
+                        Structure</a>
+                    <a href="#">What We Do</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <a class="dropbtn" routerLink="/businessfedex" routerLinkActive="active">Business&#64;Fedex</a>
+                <div class="dropdown-content">
+                    <a href="#">AMS</a>
+                    <a href="#">Growth</a>
+                    <a href="#">Automation & AI</a>
+                    <a href="#">Client Value</a>
+                    <a href="#">Culture</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <a class="dropbtn" routerLink="/peoplededex" routerLinkActive="active">People&#64;Fedex</a>
+                <div class="dropdown-content">
+                    <a href="#">Launchpad for new joiners</a>
+                    <a href="#">Learning & Proficiency </a>
+                    <a href="#">iAspire</a>
+                    <a href="#">I&D</a>
+                </div>
+              </div>
+            
+
+        </div>
+    </div>
+</nav>
   <df-messenger intent="WELCOME" 
   chat-title="FedEx Navigator" chat-icon="./assets/images/chat.png"
    agent-id="28481536-d20f-4f97-9454-cb46b1c8ea59"
