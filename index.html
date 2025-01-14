@@ -7,75 +7,133 @@
   <title>Page Title</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-  <script >
-     $(document).ready(function () {
-    window.addEventListener('dfMessengerLoaded', function (event) {
-      $r1 = document.querySelector("df-messenger");
-      $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
-      $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
-      var sheet = new CSSStyleSheet;
-      sheet.replaceSync(`div.chat-wrapper[opened="true"] { height: 400px }`);
-      $r2.shadowRoot.adoptedStyleSheets = [sheet];
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      window.addEventListener('dfMessengerLoaded', function (event) {
+        $r1 = document.querySelector("df-messenger");
+        $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
+        $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
+        var sheet = new CSSStyleSheet;
+        sheet.replaceSync(`div.chat-wrapper[opened="true"] { height: 400px }`);
+        $r2.shadowRoot.adoptedStyleSheets = [sheet];
+      });
     });
-  });
   </script>
 </head>
 
 <body>
   <nav class="fedex-nav">
     <div class="fedex-wrapper">
-        <a class="fedex-header__logo_wrapper" routerLink="/home" routerLinkActive="active">
-            <span>
-                <img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" width="100%" height="100%"
-                    class="fedex-header-logo" alt="FedEx Logo" style="outline: none;">
-            </span>
-        </a>
-        <div class="fedex-global-nav fedex-grid">
+      <a class="fedex-header__logo_wrapper" routerLink="/home" routerLinkActive="active">
+        <span>
+          <img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" width="100%" height="100%"
+            class="fedex-header-logo" alt="FedEx Logo" style="outline: none;">
+        </span>
+      </a>
+      <div class="fedex-global-nav fedex-grid">
 
-            <div class="dropdown">
-                <a  class="dropbtn" routerLink="/wefedex" routerLinkActive="active">We&#64;Fedex</a>
-                <div class="dropdown-content">
-                    <a href="#">Our Journey So
-                        Far</a>
-                    <a href="#">Our Operating
-                        Structure</a>
-                    <a href="#">What We Do</a>
-                </div>
-              </div>
+        <div class="dropdown">
+          <a class="dropbtn" routerLink="/wefedex" routerLinkActive="active">We&#64;Fedex</a>
+          <div class="dropdown-content">
+            <a href="#">Our Journey So
+              Far</a>
+            <a href="#">Our Operating
+              Structure</a>
+            <a href="#">What We Do</a>
+          </div>
+        </div>
 
-              <div class="dropdown">
-                <a class="dropbtn" routerLink="/businessfedex" routerLinkActive="active">Business&#64;Fedex</a>
-                <div class="dropdown-content">
-                    <a href="#">AMS</a>
-                    <a href="#">Growth</a>
-                    <a href="#">Automation & AI</a>
-                    <a href="#">Client Value</a>
-                    <a href="#">Culture</a>
-                </div>
-              </div>
+        <div class="dropdown">
+          <a class="dropbtn" routerLink="/businessfedex" routerLinkActive="active">Business&#64;Fedex</a>
+          <div class="dropdown-content">
+            <a href="#">AMS</a>
+            <a href="#">Growth</a>
+            <a href="#">Automation & AI</a>
+            <a href="#">Client Value</a>
+            <a href="#">Culture</a>
+          </div>
+        </div>
 
-              <div class="dropdown">
-                <a class="dropbtn" routerLink="/peoplededex" routerLinkActive="active">People&#64;Fedex</a>
-                <div class="dropdown-content">
-                    <a href="#">Launchpad for new joiners</a>
-                    <a href="#">Learning & Proficiency </a>
-                    <a href="#">iAspire</a>
-                    <a href="#">I&D</a>
-                </div>
-              </div>
-            
+        <div class="dropdown">
+          <a class="dropbtn" routerLink="/peoplededex" routerLinkActive="active">People&#64;Fedex</a>
+          <div class="dropdown-content">
+            <a href="#">Launchpad for new joiners</a>
+            <a href="#">Learning & Proficiency </a>
+            <a href="#">iAspire</a>
+            <a href="#">I&D</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="fedex-sub-container">
+    <div class="fedex-vedio-container">
+      <h2>
+        Welcome to the world of Accenture FedEx
+      </h2>
+      <iframe width="696" height="315" src="https://www.youtube.com/embed/asPPBO4dC9s?si=hdAJ6RnQ6ja68V4q"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="fedex-news-container">
+      <div class="fedex-navigator-container">
+        <span>Fedex Navigator thumbnail with Links</span>
+      </div>
+      <div>
+        <h2>
+          Happenning now &#64;Fedex
+        </h2>
+        <p>On June 1, 2024, FedEx Ground and FedEx Services were successfully merged into Federal Express,
+          becoming
+          a single company operating a unified, fully integrated air-ground express network</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="fedex-image-main-container">
+    <div id="carouselExample" class="fedex-caraousel-container carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img alt="" src="./assets/images/expandedpic1.jpg">
 
         </div>
+        <div class="carousel-item">
+          <img alt="" src="./assets/images/expandedpic2.jpg">
+
+        </div>
+        <div class="carousel-item">
+          <img alt="" src="./assets/images/expandedpic3.jpg">
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-</nav>
-  <df-messenger intent="WELCOME" 
-  chat-title="FedEx Navigator" chat-icon="./assets/images/chat.png"
-   agent-id="28481536-d20f-4f97-9454-cb46b1c8ea59"
-    language-code="en"></df-messenger>
+  </div>
+ 
+  </div>
+
+  <df-messenger intent="WELCOME" chat-title="FedEx Navigator" chat-icon="./assets/images/chat.png"
+    agent-id="28481536-d20f-4f97-9454-cb46b1c8ea59" language-code="en"></df-messenger>
 </body>
 
 </html>
