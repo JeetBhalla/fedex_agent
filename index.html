@@ -29,52 +29,53 @@
 </head>
 
 <body>
-  <nav class="fedex-nav">
-    <div class="fedex-wrapper">
-      <a class="fedex-header__logo_wrapper" routerLink="/home" routerLinkActive="active">
-        <span>
-          <img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" width="100%" height="100%"
-            class="fedex-header-logo" alt="FedEx Logo" style="outline: none;">
-        </span>
-      </a>
-      <div class="fedex-global-nav fedex-grid">
+  <header>
+    <nav class="fedex-nav">
+      <div class="fedex-wrapper">
+        <a class="fedex-header__logo_wrapper" routerLink="/home" routerLinkActive="active">
+          <span>
+            <img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" width="100%" height="100%"
+              class="fedex-header-logo" alt="FedEx Logo" style="outline: none;">
+          </span>
+        </a>
+        <div class="fedex-global-nav fedex-grid">
 
-        <div class="dropdown">
-          <a class="dropbtn" routerLink="/wefedex" routerLinkActive="active">We&#64;Fedex</a>
-          <div class="dropdown-content">
-            <a href="#">Our Journey So
-              Far</a>
-            <a href="#">Our Operating
-              Structure</a>
-            <a href="#">What We Do</a>
+          <div class="dropdown">
+            <a class="dropbtn" routerLink="/wefedex" routerLinkActive="active">We&#64;Fedex</a>
+            <div class="dropdown-content">
+              <a href="#">Our Journey So
+                Far</a>
+              <a href="#">Our Operating
+                Structure</a>
+              <a href="#">What We Do</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="dropbtn" routerLink="/businessfedex" routerLinkActive="active">Business&#64;Fedex</a>
+            <div class="dropdown-content">
+              <a href="#">AMS</a>
+              <a href="#">Growth</a>
+              <a href="#">Automation & AI</a>
+              <a href="#">Client Value</a>
+              <a href="#">Culture</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="dropbtn" routerLink="/peoplededex" routerLinkActive="active">People&#64;Fedex</a>
+            <div class="dropdown-content">
+              <a href="#">Launchpad for new joiners</a>
+              <a href="#">Learning & Proficiency </a>
+              <a href="#">iAspire</a>
+              <a href="#">I&D</a>
+            </div>
           </div>
         </div>
-
-        <div class="dropdown">
-          <a class="dropbtn" routerLink="/businessfedex" routerLinkActive="active">Business&#64;Fedex</a>
-          <div class="dropdown-content">
-            <a href="#">AMS</a>
-            <a href="#">Growth</a>
-            <a href="#">Automation & AI</a>
-            <a href="#">Client Value</a>
-            <a href="#">Culture</a>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <a class="dropbtn" routerLink="/peoplededex" routerLinkActive="active">People&#64;Fedex</a>
-          <div class="dropdown-content">
-            <a href="#">Launchpad for new joiners</a>
-            <a href="#">Learning & Proficiency </a>
-            <a href="#">iAspire</a>
-            <a href="#">I&D</a>
-          </div>
-        </div>
-
-
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
+
 
   <div class="fedex-sub-container">
     <div class="fedex-vedio-container">
@@ -128,12 +129,52 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
- 
-  </div>
+   </div>
 
-  <df-messenger intent="WELCOME" chat-title="FedEx Navigator" chat-icon="./assets/images/chat.png"
-    agent-id="28481536-d20f-4f97-9454-cb46b1c8ea59" language-code="en"></df-messenger>
+   <footer >
+    <div class="fedex-container">
+      <div class="fedex-wrapper">
+        <div class="fedex-copyright">
+          <p>© FedEx 1995-2025</p>
+        </div>
+        <div class="fedx-footer-links">
+          <div class="fedex-links">
+            <a href="https://www.fedex.com/en-us/sitemap.html" aria-label="Site Map" title="Site Map" target="_self"
+              class="fxg-img-noIcon fxg-link js-fxgc-init default fxg-keyboard" data-analytics="ftr|link|Site Map"
+              onclick="FDX.DTM.pushLinkInfo(this)" style="color:inherit;">
+              <span class="fxg-mouse" tabindex="-1">
+                Site Map
+              </span>
+            </a>
+          </div>
+
+          <div class="fedex-links">
+            <a href="https://www.fedex.com/en-us/terms-of-use.html" aria-label="Terms of Use" title="Terms of Use"
+              target="_self" class="fxg-img-noIcon fxg-link js-fxgc-init default fxg-keyboard"
+              data-analytics="ftr|link|Terms of Use" onclick="FDX.DTM.pushLinkInfo(this)" style="color:inherit;">
+              <span class="fxg-mouse" tabindex="-1">
+                Terms of Use
+              </span>
+            </a>
+          </div>
+          <div class="fedex-links">
+            <a href="https://www.fedex.com/en-us/trust-center.html" aria-label="Privacy &amp; Security"
+              title="Privacy &amp; Security" target="_self" onclick="FDX.DTM.pushLinkInfo(this);">
+              <span>
+                Privacy &amp; Security
+              </span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+ 
+
+  <!-- <df-messenger intent="WELCOME" chat-title="FedEx Navigator" chat-icon="./assets/images/chat.png"
+    agent-id="28481536-d20f-4f97-9454-cb46b1c8ea59" language-code="en"></df-messenger> -->
 </body>
 
 </html>
