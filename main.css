@@ -162,10 +162,12 @@
 .fedex-sub-container {
     display: flex;
     flex-direction: row;
+    margin: 5px;
 }
 
 .fedex-image-main-container {
     width: 100%;
+    margin: 5px;
     margin-top:10px;
     /* height: 230px; */
     display: inline-flex;
