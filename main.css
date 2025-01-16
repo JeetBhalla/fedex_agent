@@ -25,7 +25,7 @@
 
 .fedex-nav {
     background: #4d148c;
-    height:auto;
+    height: auto;
 }
 
 .fedex-wrapper {
@@ -39,7 +39,7 @@
     flex-direction: row;
     justify-content: space-between; */
 
- 
+
 
 }
 
@@ -188,7 +188,7 @@
     display: inline-flex;
     
 
-   
+
 }
 
 .fedex-image-main-container img {
@@ -204,8 +204,9 @@
     width: 50%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 
-  }
- .fedex-video-container iframe {
+}
+
+.fedex-video-container iframe {
     width: 100%;
     display: block;
     border: none
@@ -261,14 +262,13 @@ p {
 
 
 .fedex-container {
-    bottom:0;
-    width:100%
+    bottom: 0;
+    width: 100%
 }
 
-footer{
-width: 100%;
-background-color: #4d148c;
-
+footer {
+    width: 100%;
+    background-color: #4d148c;
 }
 
 footer .fedex-wrapper {
@@ -278,7 +278,7 @@ footer .fedex-wrapper {
 .fedex-copyright {
     width: 970px;
     margin: 0 auto;
-    
+
 }
 
 .fedex-copyright p {
@@ -305,7 +305,8 @@ footer .fedex-wrapper {
     margin-right: 15px;
     text-decoration: none;
 }
-.fedx-footer-links .fedex-links a{
+
+.fedx-footer-links .fedex-links a {
     text-decoration: none;
 }
 
@@ -315,13 +316,184 @@ footer .fedex-wrapper {
     font-size: .875rem;
     line-height: .75rem;
     color: #fff;
-    
+
     font-family: Roboto, Arial, Helvetica, sans-serif;
     text-decoration: none;
 
 }
 
-.fedx-footer-links .fedex-links span:hover{
+.fedx-footer-links .fedex-links span:hover {
     text-decoration: none;
-   
+
 }
+
+
+/*iAspire page scss
+*/
+
+.footer-main {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* height: auto; */
+}
+
+.iAspire-container {
+    padding: 20px 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-bottom: 120px;
+    /* overflow-y: scroll; */
+}
+
+.iAspire-heading {
+    width: 100%;
+    background-color: #bd2b98;
+    text-align: center;
+}
+
+
+.iAspire-heading h2 {
+    color: #fff;
+}
+
+.iAspire-sub-container-one,
+.iAspire-sub-container-two,
+.iAspire-sub-container-three {
+    display: flex;
+    flex-direction: row;
+}
+
+.iAspire-sub-heading-one {
+    background-color: #801163;
+    height: 25px;
+}
+
+.iAspire-sub-heading-one h3 {
+    text-align: center;
+    color: #fff;
+    font-size: medium;
+}
+
+.iAspire-heading-list-container {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #c9c5c9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-one {
+    width: 40%
+}
+
+.iAspire-heading-list-container p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.iAspire-heading-list-container li {
+    font-size: 16px;
+    padding: 4px;
+}
+
+
+.wrapper-two {
+    width: 60%;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+.container-one {
+   display: flex;
+   justify-content: flex-end;
+}
+
+
+.double-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.double-image img {
+    width: 465px;
+    height: 240px;
+}
+
+.image-two {
+    margin-top: 10px;
+}
+
+.iAspire-sub-container-two {
+    margin-top: 20px;
+}
+
+.image-container-two {
+    margin-top: 30px;
+}
+
+.iAspire-sub-container-three {
+    margin-top: 20px;
+}
+
+.iAspire-heading-list-container-three {
+    width: 100%;
+    border: 0.5px solid #c9c5c9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.iAspire-sub-content-left img{
+    height:200px
+}
+
+.iAspire-heading-list-container-three p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.iAspire-heading-list-container-three a {
+    color: #0d5e69;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.iAspire-botom-heading{
+    margin-top: 20px;
+    width: 100%;
+    height:25px;
+    background-color: #801163;
+    text-align: center;
+}
+
+.iAspire-botom-heading h3{
+    color:#fff;
+    font-size: medium;
+}
+
+.iAspire-sub-container-four{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.iAspire-heading-list-container-four {
+    width: 100%;
+    border: 0.5px solid #c9c5c9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container-four{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-container-four img{
+    width:280px
+}
+
