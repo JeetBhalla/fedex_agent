@@ -5,6 +5,8 @@
     text-align: center;
     position: relative;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.87rem;
+    margin-top: 20px;
 }
 
 .heading {
@@ -66,3 +68,10 @@ img {
 .image-div {
     text-align: center;
 }
+
+.big-section {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 20px;
+  }

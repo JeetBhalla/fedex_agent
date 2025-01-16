@@ -6,6 +6,9 @@
     text-align: center;
     position: relative;
     font-size: larger;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.87rem;
+
 }
 
 .heading {
@@ -14,6 +17,7 @@
     height: 40px;
     text-align: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: .875rem;
 
 }
 
@@ -82,3 +86,9 @@ p{
     font-size: .875rem;
     text-align: justify;
 }
+.big-section {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 20px;
+  }
