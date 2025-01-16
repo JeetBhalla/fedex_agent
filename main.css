@@ -368,12 +368,14 @@ footer .fedex-wrapper {
 .iAspire-sub-heading-one {
     background-color: #801163;
     height: 25px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .iAspire-sub-heading-one h3 {
     text-align: center;
     color: #fff;
     font-size: medium;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .iAspire-heading-list-container {
@@ -382,6 +384,7 @@ footer .fedex-wrapper {
     border: 1px solid #c9c5c9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 275px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .wrapper-one {
@@ -391,11 +394,13 @@ footer .fedex-wrapper {
 .iAspire-heading-list-container p {
     font-size: 16px;
     margin-left: 10px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .iAspire-heading-list-container li {
     font-size: 16px;
     padding: 4px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 
