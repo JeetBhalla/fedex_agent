@@ -352,9 +352,14 @@ footer .fedex-wrapper {
 }
 
 .iAspire-heading {
-    width: 100%;
-    background-color: #bd2b98;
+    background-color: #a02b93;
+    color: white;
+    height: 40px;
     text-align: center;
+    position: relative;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.87rem;
+    margin-top: 20px;
 }
 
 

@@ -5,7 +5,16 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
-  
+  .header-top {
+    background-color: #a02b93;
+    color: white;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.87rem;
+    margin-top: 20px;
+}
   .big-section {
     width: 100%;
     max-width: 780px;
