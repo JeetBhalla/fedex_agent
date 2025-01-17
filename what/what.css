@@ -1,0 +1,61 @@
+
+.header-top {
+    background-color: #a02b93;
+    color: white;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    font-size: larger;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.87rem;
+
+}
+
+.big-section {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.heading {
+background-color:#a02b93;
+color: white;
+height:40px;
+text-align: center;
+}
+h3 {    padding-top: 7px;}
+.container {
+display: flex;
+}
+.column10 {
+flex: 10;
+padding: 10px;
+}
+.column2 {
+flex: 2;
+padding: 10px;
+}
+img {
+max-width: 100%;
+height: auto;
+
+flex-shrink: 0;
+}
+.image-position {
+position: relative;
+top: 80px;
+}
+.background-gray {
+background-color: #f2f2f2;
+}
+.account-leads {
+padding-left: 10px;
+height: 0px;
+position: relative;
+bottom: 20px;}
+p{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: .875rem;
+    text-align: justify;
+}
